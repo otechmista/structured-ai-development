@@ -58,11 +58,22 @@ This method creates that source of truth before asking AI to write code.
 |   +-- architecture-checklist.md     # Validate Container View readiness
 |   +-- component-checklist.md        # Validate Component View readiness
 |   +-- code-review.md                # Validate generated implementation
-+-- example/
-    +-- 01_CONTEXT_VIEW.md            # Worked TODO API context
-    +-- 02_CONTAINER_VIEW.md          # Worked TODO API container design
-    +-- 03_COMPONENT_VIEW.md          # Worked TODO API component behavior
-    +-- 04_CODE_VIEW.md               # Worked TODO API implementation contract
++-- examples/
+    +-- todo-api/                     # Worked TODO API specification
+    |   +-- 01_CONTEXT_VIEW.md
+    |   +-- 02_CONTAINER_VIEW.md
+    |   +-- 03_COMPONENT_VIEW.md
+    |   +-- 04_CODE_VIEW.md
+    +-- thweads-platform/             # Worked SvelteKit social platform specification
+    |   +-- 01_CONTEXT_VIEW.md
+    |   +-- 02_CONTAINER_VIEW.md
+    |   +-- 03_COMPONENT_VIEW.md
+    |   +-- 04_CODE_VIEW.md
+    +-- news-worker/                  # Worked news-fetching worker specification
+        +-- 01_CONTEXT_VIEW.md
+        +-- 02_CONTAINER_VIEW.md
+        +-- 03_COMPONENT_VIEW.md
+        +-- 04_CODE_VIEW.md
 ```
 
 ---
@@ -148,24 +159,23 @@ Review generated code against the four views. Treat AI output as a draft, not as
 
 ---
 
-## Example
+## Examples
 
-The `example/` directory contains a worked TODO API specification:
+The `examples/` directory contains worked specifications:
 
 ```txt
-example/01_CONTEXT_VIEW.md
-example/02_CONTAINER_VIEW.md
-example/03_COMPONENT_VIEW.md
-example/04_CODE_VIEW.md
+examples/todo-api/
+examples/thweads-platform/
+examples/news-worker/
 ```
 
-It demonstrates the full progression from problem definition to implementation contract:
+Each example demonstrates the full progression from problem definition to implementation contract:
 
 ```txt
 Context -> Container -> Component -> Code
 ```
 
-The example is intentionally documentation-first. It shows what should be true before code is generated.
+The examples are intentionally documentation-first. They show what should be true before code is generated.
 
 ---
 
@@ -229,4 +239,4 @@ This method is deliberately slower at the beginning. It requires discipline, exp
 
 ## License
 
-No license file is currently included in this repository.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
