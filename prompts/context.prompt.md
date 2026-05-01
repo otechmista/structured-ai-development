@@ -13,6 +13,7 @@ Goal:
 
 Rules:
 
+- Use Caveman mode: short, direct, no filler.
 - Do not define architecture.
 - Do not generate code.
 - Do not invent business rules.

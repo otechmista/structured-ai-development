@@ -6,27 +6,21 @@
 - Do NOT generate full implementation code
 - Focus on behavior and rules
 - Do NOT invent business logic
-- Expand only what is defined
+- Expand only defined behavior
 
 ---
 
 ## Scope
 
-Which block is being detailed:
-
-<example: API>
+Block being detailed: <example: API>
 
 ---
 
 ## Components
 
-| Component | Responsibility |
-|---|---|
-| Handler |  |
-| Service |  |
-| Repository |  |
-| Validator |  |
-| Publisher |  |
+| Component | Responsibility | Does NOT Do |
+|---|---|---|
+|  |  |  |
 
 ---
 
@@ -43,26 +37,20 @@ Outputs:
 Business Rules:
 
 - 
-- 
-- 
 
 Validations:
 
 - 
-- 
-- 
 
 Error Cases:
 
-- 
-- 
 - 
 
 Dependencies:
 
 - 
 
-Does NOT do:
+Does NOT Do:
 
 - 
 
@@ -70,7 +58,7 @@ Does NOT do:
 
 ## Internal Flow
 
-Describe execution:
+Main execution:
 
 1. 
 2. 
@@ -80,25 +68,31 @@ Describe execution:
 
 ## Edge Cases
 
-List explicitly:
-
-- 
-- 
-- 
+| Case | Expected Behavior |
+|---|---|
+|  |  |
 
 ---
 
 ## Data Transformations
 
-Describe how data changes:
-
-- input → internal → output
+| From | To | Rule |
+|---|---|---|
+| input | internal |  |
+| internal | output |  |
 
 ---
 
-## Key Questions (AI must validate)
+## Open Questions
 
-- Are responsibilities clear?
-- Are rules complete?
-- Are validations sufficient?
-- Are edge cases covered?
+- 
+
+---
+
+## Readiness Check
+
+- Responsibilities are clear
+- Rules are complete
+- Validations are explicit
+- Errors and edge cases are covered
+- Blocking questions are answered

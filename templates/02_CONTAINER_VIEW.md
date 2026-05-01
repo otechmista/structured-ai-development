@@ -6,40 +6,29 @@
 - Do NOT generate code
 - Do NOT change business rules
 - Respect constraints from CONTEXT_VIEW
-- Focus on system structure
+- Keep architecture as simple as possible
 
 ---
 
 ## Architecture Style
 
-Select one:
+Selected style: <monolith | modular monolith | microservices | hybrid>
 
-- monolith
-- modular monolith
-- microservices
-- hybrid
-
-Justify the choice.
+Why:
 
 ---
 
 ## System Blocks
 
-List all major blocks:
-
-| Block | Responsibility | Technology (optional) |
-|---|---|---|
-| API |  |  |
-| Worker |  |  |
-| Database |  |  |
-| Queue |  |  |
-| External Service |  |  |
+| Block | Responsibility | Owns Data? | Technology |
+|---|---|---|---|
+|  |  |  |  |
 
 ---
 
 ## Data Flow
 
-Describe step-by-step:
+Main flow:
 
 1. 
 2. 
@@ -49,9 +38,9 @@ Describe step-by-step:
 
 ## External Integrations
 
-| System | Purpose | Protocol |
-|---|---|---|
-|  |  |  |
+| System | Purpose | Protocol | Failure Handling |
+|---|---|---|---|
+|  |  |  |  |
 
 ---
 
@@ -63,25 +52,32 @@ Describe step-by-step:
 
 ---
 
-## Trade-offs
+## Architecture Decisions
 
-List architectural decisions:
-
-- 
-- 
-- 
+| Decision | Reason | Trade-off |
+|---|---|---|
+|  |  |  |
 
 ---
 
 ## Constraints Applied
 
-Explain how constraints influenced architecture.
+| Constraint | Architecture Impact |
+|---|---|
+|  |  |
 
 ---
 
-## Key Questions (AI must validate)
+## Open Questions
 
-- Are responsibilities well separated?
-- Is the architecture over-engineered?
-- Are failure points addressed?
-- Is there a simpler alternative?
+- 
+
+---
+
+## Readiness Check
+
+- Blocks have clear responsibilities
+- Data flow is understandable
+- Integrations and failures are covered
+- Architecture is not over-engineered
+- Blocking questions are answered

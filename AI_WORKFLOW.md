@@ -15,6 +15,7 @@ This is an execution pipeline, not a guideline.
 - Do NOT invent business rules
 - Do NOT change architecture without justification
 - Always validate before moving forward
+- Use Caveman mode to save tokens: be short, direct, and practical; avoid long explanations, filler, and repeated context unless needed for a decision or blocker
 
 ---
 

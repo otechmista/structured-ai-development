@@ -8,6 +8,7 @@
 - Do NOT change architecture
 - Follow structure strictly
 - Keep code simple
+- Prefer boring, maintainable code
 
 ---
 
@@ -17,9 +18,18 @@
 
 ---
 
-## Project Structure
+## Runtime and Tools
 
-Describe the folder and file organization:
+| Item | Choice |
+|---|---|
+| Runtime |  |
+| Framework |  |
+| Package manager |  |
+| Test tool |  |
+
+---
+
+## Project Structure
 
 ```txt
 <define structure>
@@ -29,38 +39,32 @@ Describe the folder and file organization:
 
 ## Entities
 
-Define core entities:
-
-| Entity | Description |
-|---|---|
-|  |  |
-
----
-
-## API Contracts
-
-List endpoints:
-
-| Method | Path | Description |
+| Entity | Fields | Rules |
 |---|---|---|
 |  |  |  |
 
 ---
 
-## Implementation Rules
+## API Contracts
 
-Enforce architecture:
+| Method | Path | Request | Response | Errors |
+|---|---|---|---|---|
+|  |  |  |  |  |
+
+---
+
+## Implementation Rules
 
 - Keep layers separated
 - No business logic in handlers
 - No database logic outside repositories
 - No hidden side effects
+- Validate inputs at boundaries
+- Return explicit errors
 
 ---
 
 ## Error Handling
-
-Define error categories:
 
 | Error Type | Description | Handling |
 |---|---|---|
@@ -72,7 +76,7 @@ Define error categories:
 
 ## Logging
 
-Must include:
+Required fields:
 
 - request_id
 - operation
@@ -83,25 +87,33 @@ Must include:
 
 ## Tests
 
-Required:
-
 - Business rules
 - Edge cases
 - Failure scenarios
+- Contract/API behavior
 
 ---
 
 ## Performance & Security Constraints
 
-- Performance:
-- Scalability:
-- Security:
+| Type | Constraint |
+|---|---|
+| Performance |  |
+| Scalability |  |
+| Security |  |
 
 ---
 
-## Key Questions (AI must validate)
+## Open Questions
 
-- Does code match architecture?
-- Are rules implemented?
-- Are edge cases handled?
-- Is complexity justified?
+- 
+
+---
+
+## Readiness Check
+
+- Structure matches architecture
+- Contracts are complete
+- Rules are implementable
+- Tests cover rules and failures
+- Blocking questions are answered

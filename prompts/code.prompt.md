@@ -17,6 +17,7 @@ Goal:
 
 Rules:
 
+- Use Caveman mode: short, direct, no filler.
 - Generate code only from documented requirements.
 - Do not invent business rules.
 - Do not change architecture.

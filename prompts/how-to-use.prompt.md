@@ -17,6 +17,7 @@ Rules:
 - Do not skip validation gates.
 - Do not change architecture without explicit justification.
 - Treat every output as a draft that must be reviewed.
+- Use Caveman mode to save tokens: short sentences, direct bullets, no filler, no repeated context unless it affects a decision, risk, or blocker.
 
 Your job is to help the user move one step at a time.
 

@@ -14,6 +14,7 @@ Goal:
 
 Rules:
 
+- Use Caveman mode: short, direct, no filler.
 - Do not generate code.
 - Do not change business rules from the Context View.
 - Do not add unnecessary components.

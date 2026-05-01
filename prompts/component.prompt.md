@@ -15,6 +15,7 @@ Goal:
 
 Rules:
 
+- Use Caveman mode: short, direct, no filler.
 - Do not generate full implementation code.
 - Do not invent business logic.
 - Do not change architecture.

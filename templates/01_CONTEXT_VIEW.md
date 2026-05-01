@@ -4,9 +4,9 @@
 ## Instructions for AI
 
 - Do NOT generate code
-- Do NOT assume missing information
-- Ask questions if context is unclear
-- Focus on understanding the problem
+- Do NOT assume missing facts
+- Ask only blocking questions
+- Keep answers short and practical
 
 ---
 
@@ -16,80 +16,77 @@
 
 ---
 
-## Problem
+## Problem Statement
 
-Describe the problem clearly.
-
-Constraints:
-- Must be objective
-- Avoid generic statements
+Describe the real problem in 2-5 sentences.
 
 ---
 
 ## Users
 
-List all actors:
-
-- Human users:
-- Systems:
-- External integrations:
+| Actor | Need | Access Level |
+|---|---|---|
+| Human user |  |  |
+| Internal system |  |  |
+| External system |  |  |
 
 ---
 
 ## Goals
 
-What must be achieved:
-
-- 
-- 
-- 
+| Goal | Success Metric |
+|---|---|
+|  |  |
 
 ---
 
 ## Non-Goals
 
-What is explicitly NOT part of the system:
+Explicitly out of scope:
 
-- 
-- 
 - 
 
 ---
 
 ## Business Rules (High Level)
 
-Rules that affect behavior:
-
-- 
-- 
 - 
 
 ---
 
 ## Constraints
 
-- Technical:
-- Business:
-- Legal:
-- Operational:
+| Type | Constraint |
+|---|---|
+| Technical |  |
+| Business |  |
+| Legal |  |
+| Operational |  |
 
 ---
 
 ## System Boundaries
 
-Inside the system:
+Inside:
 
 - 
 
-Outside the system:
+Outside:
 
 - 
 
 ---
 
-## Key Questions (AI must validate)
+## Open Questions
 
-- Is the problem clear?
-- Are goals measurable?
-- Are constraints realistic?
-- Are there missing actors?
+- 
+
+---
+
+## Readiness Check
+
+- Problem is clear
+- Goals are measurable
+- Actors are complete
+- Boundaries are explicit
+- Blocking questions are answered

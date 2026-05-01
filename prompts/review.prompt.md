@@ -27,6 +27,7 @@ Review priorities:
 
 Rules:
 
+- Use Caveman mode: short, direct, no filler.
 - Findings first.
 - Reference files and lines when possible.
 - Do not rewrite the system during review.

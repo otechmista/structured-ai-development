@@ -4,6 +4,8 @@ A practical method for building software with AI without letting code generation
 
 LLMs are useful at producing code, summaries, tests, and alternatives. They are not a substitute for clear requirements, explicit architecture, business rules, or engineering judgment. This repository gives you a repeatable workflow for using AI as an assistant across the whole development process, not just at the final coding step.
 
+Project rule: use Caveman mode. Be short, direct, and practical. Avoid filler and repeated context unless needed for a decision, risk, or blocker.
+
 ---
 
 ## What this method does
@@ -58,6 +60,16 @@ This method creates that source of truth before asking AI to write code.
 |   +-- architecture-checklist.md     # Validate Container View readiness
 |   +-- component-checklist.md        # Validate Component View readiness
 |   +-- code-review.md                # Validate generated implementation
++-- guides/
+|   +-- README.md                     # Coding guide index
+|   +-- API_GUIDE_CODING.md           # Agnostic API coding guide
+|   +-- CONSOLE_WORKER_GUIDE_CODING.md # Agnostic console app and worker guide
+|   +-- GO_GUIDE_CODING.md            # Go coding guide
+|   +-- PYTHON_GUIDE_CODING.md        # Python coding guide
+|   +-- JAVA_GUIDE_CODING.md          # Java coding guide
+|   +-- DOTNET_GUIDE_CODING.md        # .NET coding guide
+|   +-- FLUTTER_GUIDE_CODING.md       # Flutter coding guide
+|   +-- WEB_SVELTEKIT_GUIDE_CODING.md # Web coding guide with SvelteKit
 +-- examples/
     +-- todo-api/                     # Worked TODO API specification
     |   +-- 01_CONTEXT_VIEW.md
